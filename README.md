@@ -23,17 +23,19 @@ To write a code for the following models and predict it's MAximum Likelihood Est
 ### Models used:
 **(a) the Poisson model**
 **(b) the NBD model**
-**(c) the Zero Inflated NBD model:** he Zero Inflated Negative Binomial (NBD) model is used for count data that has an excess of zero counts, which is not well captured by standard count models like Poisson or regular NBD. This model combines a standard count model (like NBD) with a point mass at zero, essentially allowing for two processes: one that generates zeros and another that generates counts following an NBD distribution.
+**(c) the Zero Inflated NBD model:** Zero Inflated Negative Binomial (NBD) model is used for count data that has an excess of zero counts, which is not well captured by standard count models like Poisson or regular NBD. This model combines a standard count model (like NBD) with a point mass at zero, essentially allowing for two processes: one that generates zeros and another that generates counts following an NBD distribution.
 
 **Components:**
 Zero-inflation: Models the probability of an excess zero.
 NBD: Models the counts (including zeros that are not excess).
+
 **(d) Finite Mixture models for 2, 3, and 4 segments:** Finite Mixture Models assume that the population is a mixture of several distinct subpopulations, each described by its own distribution. The data is assumed to come from these different subpopulations or segments. 
+
 **Components:**
 `Subpopulations:` Each segment has its own distribution parameters.
 `Mixing Proportions:` Probabilities that an observation belongs to a particular subpopulation.
-`For 2, 3, and 4 segments:`
 
+`For 2, 3, and 4 segments:`
 `2 Segments:` The data is modeled as a combination of two distinct subpopulations.
 `3 Segments:` The data is modeled as a combination of three distinct subpopulations.
 `4 Segments:` The data is modeled as a combination of four distinct subpopulations.
