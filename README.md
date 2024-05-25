@@ -1,6 +1,6 @@
 # Customer-Analytics: Project 1
 
-### Data Sets
+### Datasets
 • billboard.csv
 • khakichinos.csv 
 • books.csv
@@ -13,3 +13,15 @@
 
 ### Task
 To write a code for the following models and predict it's MAximum Likelihood Estimation (MLE), compare between models and explain which is better and why. Also, provide some managerial takeaways if possible.
+
+# Customer-Analytics: Project 2
+
+### Datasets
+• candy.csv
+• articles.csv
+
+### Models used:
+**(a) the Poisson model**
+(b) the NBD model,
+(c) the Zero Inflated NBD model, and
+(d) Finite Mixture models for 2, 3, and 4 segments.
