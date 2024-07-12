@@ -1,5 +1,7 @@
 # Customer-Analytics: Project 1
 
+![](https://github.com/AkilsuryaS/Customer-Analytics/blob/main/images/Cover%20pic.jpeg)
+
 ### Datasets
 • billboard.csv
 • khakichinos.csv 
